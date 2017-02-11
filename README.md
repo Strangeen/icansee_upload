@@ -9,7 +9,7 @@
 
 * ### 示例代码1：
   
-  ```
+  ```java
   FileUploadRequest fileRequest = new FileUploadRequest(request, sessionKey);
   UploadFile file = fileRequest.getFile("file");
   ```
@@ -28,7 +28,7 @@
   
 * ### 示例代码2：
   
-  ```
+  ```java
   Object processObj = ProcessGetter.getProcess(request, sessionKey);
   ```
   
